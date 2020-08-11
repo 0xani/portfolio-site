@@ -15,11 +15,11 @@ function ReactJS (){
                     {projects.map((project, index) =>{
 return(
     <div className="card">
-        <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" className="card-img-top" alt="..."/>
+        <img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" className="card-img-top" alt="ReactJS"/>
         <div className="card-body">
             <h5 className="card-title">{project}</h5>
             <p className="card-text">{description[index]}</p>
-            <a href="#" className="btn btn-primary ">Go somewhere</a>
+            {/* <a href="#" className="btn btn-primary ">Github Repo</a> */}
         </div>
     </div>
 )

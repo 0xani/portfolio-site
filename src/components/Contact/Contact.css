@@ -44,7 +44,7 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 650px) {
     h1.text-details {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
@@ -58,7 +58,7 @@
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 650px) {
     h1.text-body {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 

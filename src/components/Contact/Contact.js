@@ -11,7 +11,7 @@ function Contact (){
                     <div class={"col-sm"}>
                         <div class={"text-body"}>
                             <img src={avatar} width="400" height="400"/>
-                            <h1 class={"mt-5"}>Jose Torres</h1>
+                            <h1 class={"mt-5"}>Joe Torres</h1>
                             <h1>I am a web developer and programmer living in southern California</h1>
 
                         </div>

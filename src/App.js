@@ -20,8 +20,8 @@ function App() {
        <Router>
            {/*<h3>Top level routes</h3>*/}
 
-           <nav className="navbar navbar-expand-lg navbar-light bg-light header-color">
-           <a className="navbar-brand " href="/portfolio-site">JOSE TORRES</a>
+           <nav className="navbar navbar-expand-lg navbar-dark bg-light header-color">
+           <a className="navbar-brand " href="/portfolio-site">JOE TORRES (BETA)</a>
                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                    <span className="navbar-toggler-icon"></span>
@@ -39,10 +39,10 @@ function App() {
                </div>
            </nav>
            <Route path="/portfolio-site" component={LandingPage}/>
-           <Route path="/Resume/" component={Resume}/>
-           <Route path="/Projects/" component={Projects}/>
-           <Route path="/Contact/" component={Contact}/>
-           <Route path="/Privacy Policy/" component={PrivacyPolicy}/>
+           <Route path="/resume/" component={Resume}/>
+           <Route path="/projects/" component={Projects}/>
+           <Route path="/contact/" component={Contact}/>
+           <Route path="/privacy policy/" component={PrivacyPolicy}/>
 
        </Router>
    </div>
